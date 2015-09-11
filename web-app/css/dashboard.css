@@ -1,0 +1,166 @@
+html * {
+    margin: 0;
+    /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
+}
+
+/* GENERAL */
+
+
+body {
+    background: #fff;
+    color: #333;
+    font: 11px verdana, arial, helvetica, sans-serif;
+}
+#grailsLogo {
+    padding:20px;
+}
+
+a:link, a:visited, a:hover {
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dashboard h1 {
+    color: #666;
+    font-weight: normal;
+    font-size: 45px;
+    margin: 0;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+input, select, textarea {
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    font: 11px verdana, arial, helvetica, sans-serif;
+    margin: 2px 0;
+    padding: 2px 4px;
+}
+select {
+    padding: 2px 2px 2px 0;
+}
+textarea {
+    width: 250px;
+    height: 150px;
+    vertical-align: top;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #b2d1ff;
+}
+
+.body {
+    float: left;
+    margin: 0 15px 10px 15px;
+}
+
+
+.container {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.nameTag {
+    border: 2px solid #cccccc;
+    margin: 5px;
+    padding: 10px;
+    width: 400px;
+    height: 175px;
+    float: left;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+}
+
+.summary{
+    float: right;
+    margin: 20px 20px 0 0 ;
+    font-size: 3em;
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+}
+
+.participantName {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.badges {
+    float: left;
+}
+
+.badges ul {
+    margin-top: 10px;
+}
+
+.badges ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.badges img {
+    width: 50px;
+}
+
+.scores {
+    margin-top: 10px;
+    font-size: 2em;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* === Matt's Edits === */
+.nameTag {
+    width: calc(24% - 16px);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 6px 8px;
+    background: #fff;
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+    border: 1px solid #ccc;
+    padding: 0;
+    position: relative;
+    height: 140px;
+}
+.dashboard {
+    width: auto;
+    text-align: center;
+    padding: 0 25px;
+}
+body {
+    background: #f2f2f2;
+}
+.dashboard h1 {
+    margin: 20px auto;
+}
+.participantName {
+    font-size: 28px;
+}
+.scores {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    font-size: 18px;
+    padding: 5px 10px;
+    background: #f8f8f8;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid #e8e8e8;
+}
+.scores .student {
+    width: 50%;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+}
+.badges {
+    width: 100%;
+    float: none;
+    text-align: left;
+}

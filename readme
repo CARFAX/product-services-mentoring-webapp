@@ -1,0 +1,24 @@
+This application is used to assign badges to people based on points.  We use it to track who has mentored or been mentored at Carfax
+  * Why and when would I use it?
+
+ 
+##Contributing
+ 
+Contributors welcome! Just follow the typical ["Fork & Pull"](https://help.github.com/articles/using-pull-requests/) GitHub collaborative model.
+ 
+If you have ideas or questions just [open an issue](https://github.com/CARFAX/product-services-mentoring-webapp/issues/new).
+ 
+Contributors
+Ryan Schultz
+Shane Davenport
+Mike Finney
+Jeff Menter
+Brad Cypert
+Jacob Rogers
+Derek Helwig 
+
+To Login 
+username : changeme
+password : changeme
+
+[MIT License](LICENSE)

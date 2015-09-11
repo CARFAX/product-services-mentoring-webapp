@@ -1,0 +1,9 @@
+target
+target-eclipse
+/stacktrace.log
+.idea/
+*.pickle
+*.iws
+*.ipr
+*.iml
+build
